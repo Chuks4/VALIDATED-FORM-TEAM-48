@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/f7c6630364.js"></script>
+    <script src="script/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Nav Section -->
+    <div class="nav-bar">
+      <nav>
+        <header class="hearderIcon">WEL.</header>
+        <div class="hamburger" id="hamburger">
+          <i class="fa fa-bars" aria-hidden="true" id="bars"></i>
+        </div>
+
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Login Container -->
+    <section>
+      <!-- form Section -->
+      <form name="myForm">
+        <div class="container">
+          <div class="card-box">
+            <h1>login here</h1>
+            <input type="text" name="username" placeholder="Enter username" />
+            <input type="email" name="email" placeholder="Enter email" />
+            <input type="number" name="phone" placeholder="Enter phone no." />
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter password"
+            /><span class="fa fa-eye" aria-hidden="true" id="icon"></span><br />
+            <input
+              type="password"
+              name="confirm"
+              placeholder="Confirm password"
+            /><br />
+            <input type="radio" name="gender" id="male" /> Male
+            <input type="radio" name="gender" id="female" /> Female <br /><input
+              type="submit"
+              id="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
